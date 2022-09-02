@@ -1,0 +1,24 @@
+p {
+	margin: 0;
+}
+
+#outerToDo {
+    display: flex;
+	flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+#innerToDo {
+	display: flex;
+	flex-flow: column nowrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.todos {
+	display: flex;
+	flex-flow: row nowrap;
+    justify-content: center;
+    align-content: center;
+}
